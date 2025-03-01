@@ -178,6 +178,10 @@ button:hover, button:active {
     border: 1px solid var(--color-red);
 }
 
+button, .success button {
+    transition: background-color 0.2s ease;
+}
+
 .illustration-mobile {
     display: none;
 }
@@ -224,6 +228,10 @@ button:hover, button:active {
 
     input {
         width: 100%;
+    }
+
+    .email-wrapper {
+        gap: 18rem;
     }
 
     .content {
